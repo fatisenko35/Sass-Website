@@ -1,0 +1,21 @@
+@import "reset";
+@import "mixin";
+@import "variables";
+@import "footer";
+@import "about";
+@import "contact";
+@import "home";
+@import "projects";
+@import "nav";
+
+body{
+    color: $textColor;
+    background-color: $primaryColor;
+    height: 100vh;
+    font-family: $fontFamily;
+}
+
+a{
+    color: $textColor;
+    text-decoration: none;
+}

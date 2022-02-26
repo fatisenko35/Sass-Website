@@ -1,0 +1,19 @@
+.link-style{
+    
+    a{
+        padding: 0.4rem;
+
+        &:hover{
+            color: $secondaryColor;
+        }
+    }
+}
+
+footer.horizontal{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 1rem;
+    @extend .link-style;
+}

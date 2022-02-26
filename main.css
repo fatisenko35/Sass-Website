@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.link-style a, footer.horizontal a {
+  padding: 0.4rem;
+}
+
+.link-style a:hover, footer.horizontal a:hover {
+  color: #FF652F;
+}
+
+footer.horizontal {
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding: 1rem;
+}
+
+.home-bgImg-container {
+  height: 100vh;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("./img/model-1.jpg");
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("./img/model-1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.home {
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.home__name {
+  font-size: 5rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #FFF;
+}
+
+.home__name--last {
+  color: red;
+  font-weight: 700;
+}
+
+.nav {
+  height: 10vh;
+  padding: 1rem;
+}
+
+.nav__list {
+  text-align: right;
+}
+
+.nav__item {
+  display: inline;
+  padding: 1rem;
+  text-align: right;
+}
+
+.nav__link {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.nav__link:hover {
+  color: blue;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.nav__link--active {
+  color: orange;
+}
+
+body {
+  color: #EEE;
+  background-color: #272727;
+  height: 100vh;
+  font-family: "Segoe UI", "Nunito", Tahoma, Genava, Verdana, sans-serif;
+}
+
+a {
+  color: #EEE;
+  text-decoration: none;
+}
+/*# sourceMappingURL=main.css.map */
