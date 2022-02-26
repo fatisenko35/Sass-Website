@@ -79,6 +79,14 @@ footer.middle {
   gap: 1rem;
 }
 
+footer.middle a {
+  padding: 0.4rem;
+}
+
+footer.middle a:hover {
+  color: #FF652F;
+}
+
 .about-bgImg-container {
   height: 50vh;
   width: 100%;
